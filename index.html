@@ -275,6 +275,7 @@
       .paths{grid-template-columns:repeat(2,1fr)}
       .hunt-grid,.about-grid,.sell-grid,.visit-grid{grid-template-columns:1fr}
       .cats-grid{grid-template-columns:1fr 1fr}
+      .cats-grid>.cat:last-child:nth-child(3n+1){grid-column:span 2}
       .eras-grid{grid-template-columns:repeat(3,1fr)}
       .reviews-grid{grid-template-columns:1fr 1fr}
       .vault-grid{grid-template-columns:repeat(2,1fr)}
@@ -286,6 +287,7 @@
       .hero-inner{padding:56px 20px 36px}
       .paths{padding:0 20px 56px;grid-template-columns:1fr 1fr}
       .cats-grid,.reviews-grid{grid-template-columns:1fr}
+      .cats-grid>.cat:last-child:nth-child(3n+1){grid-column:auto}
       .eras-grid{grid-template-columns:repeat(2,1fr)}
       .vault-grid{grid-template-columns:1fr}
       .footer-grid{grid-template-columns:1fr}
