@@ -120,7 +120,8 @@
     /* WHAT WE CAN HUNT */
     .can-hunt{background:var(--bg)}
     .can-hunt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px}
-    .ch-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:26px 22px;transition:border-color .2s}
+    .ch-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:26px 22px;overflow:hidden;transition:border-color .2s}
+    .ch-img{width:calc(100% + 44px);height:110px;object-fit:cover;margin:-26px -22px 14px;display:block}
     .ch-card:hover{border-color:var(--y)}
     .ch-icon{font-size:28px;margin-bottom:12px}
     .ch-h{font-family:var(--fd);font-size:22px;letter-spacing:.04em;margin-bottom:8px}
@@ -431,6 +432,7 @@
     <p style="font-size:16px;color:var(--gl);max-width:580px;line-height:1.75;margin-bottom:0">If it's a comic, a collection piece, or a collectible — and it's been made at some point in history — we'll try to find it.</p>
     <div class="can-hunt-grid">
       <div class="ch-card">
+        <img src="https://images.unsplash.com/photo-NRQIv1lYdEM?auto=format&fit=crop&w=600&q=80" class="ch-img" alt="Comic back issues" loading="lazy"/>
         <div class="ch-icon">📚</div>
         <div class="ch-h">Back Issues</div>
         <p class="ch-p">Single issues from any era. Golden Age originals to last month's keys.</p>
@@ -442,6 +444,7 @@
         </ul>
       </div>
       <div class="ch-card">
+        <img src="https://images.unsplash.com/photo-zq7FE-DDE70?auto=format&fit=crop&w=600&q=80" class="ch-img" alt="Graded comic books" loading="lazy"/>
         <div class="ch-icon">💎</div>
         <div class="ch-h">Graded Books</div>
         <p class="ch-p">Looking for a specific CGC or CBCS grade? We hunt the slabs too.</p>
@@ -453,6 +456,7 @@
         </ul>
       </div>
       <div class="ch-card">
+        <img src="https://images.unsplash.com/photo-ofodA2MvUFE?auto=format&fit=crop&w=600&q=80" class="ch-img" alt="Variant comic covers" loading="lazy"/>
         <div class="ch-icon">🎨</div>
         <div class="ch-h">Variants & Rare Covers</div>
         <p class="ch-p">Convention exclusives, newsstand editions, printing variants, incentive covers.</p>
@@ -464,6 +468,7 @@
         </ul>
       </div>
       <div class="ch-card">
+        <img src="https://images.unsplash.com/photo-mp295uolfDs?auto=format&fit=crop&w=600&q=80" class="ch-img" alt="Collectibles and figures" loading="lazy"/>
         <div class="ch-icon">🤖</div>
         <div class="ch-h">Collectibles & Figures</div>
         <p class="ch-p">Not just comics. Action figures, statues, Funko exclusives, vintage toys.</p>
@@ -475,6 +480,7 @@
         </ul>
       </div>
       <div class="ch-card">
+        <img src="https://images.unsplash.com/photo-lBwsXs4T8jo?auto=format&fit=crop&w=600&q=80" class="ch-img" alt="Trade paperbacks" loading="lazy"/>
         <div class="ch-icon">📖</div>
         <div class="ch-h">Trade Paperbacks & Hardcovers</div>
         <p class="ch-p">Out-of-print trades, OHC omnibuses, Absolute Editions, Absolute Carnage collections.</p>
@@ -486,6 +492,7 @@
         </ul>
       </div>
       <div class="ch-card">
+        <img src="https://images.unsplash.com/photo-Oklzj82ffsQ?auto=format&fit=crop&w=600&q=80" class="ch-img" alt="Comic shop browse" loading="lazy"/>
         <div class="ch-icon">🎭</div>
         <div class="ch-h">Not Sure What You Have?</div>
         <p class="ch-p">Have a vague memory of a cover but don't know the issue? Describe it — Jeff's identified books from fuzzier descriptions than you've got.</p>

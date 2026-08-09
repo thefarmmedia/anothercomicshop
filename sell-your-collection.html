@@ -79,7 +79,8 @@
     /* WHAT WE BUY */
     .what{background:var(--bg2)}
     .what-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px}
-    .wcard{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:24px 20px;transition:border-color .2s,transform .2s}
+    .wcard{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:24px 20px;overflow:hidden;transition:border-color .2s,transform .2s}
+    .wcard-img{width:calc(100% + 40px);height:110px;object-fit:cover;margin:-24px -20px 14px;display:block}
     .wcard:hover{border-color:var(--y);transform:translateY(-2px)}
     .wcard-icon{font-size:28px;margin-bottom:12px}
     .wcard-h{font-family:var(--fd);font-size:20px;letter-spacing:.04em;margin-bottom:6px}
@@ -293,6 +294,7 @@
     <h2 class="sec-h">WHAT WE <span class="text-y">BUY</span></h2>
     <div class="what-grid">
       <div class="wcard">
+        <img src="https://images.unsplash.com/photo-tNO5weLNt-E?auto=format&fit=crop&w=600&q=80" class="wcard-img" alt="Comic books" loading="lazy"/>
         <div class="wcard-icon">📚</div>
         <div class="wcard-h">Comic Books</div>
         <p class="wcard-p">Raw and graded, any era. Single issues to full long-box collections.</p>
@@ -302,6 +304,7 @@
         </div>
       </div>
       <div class="wcard">
+        <img src="https://images.unsplash.com/photo-5eZQXAeZ7uE?auto=format&fit=crop&w=600&q=80" class="wcard-img" alt="Graded comic slabs" loading="lazy"/>
         <div class="wcard-icon">💎</div>
         <div class="wcard-h">Graded Comics</div>
         <p class="wcard-p">CGC, CBCS, PGXF slabs in any grade. We understand graded book pricing.</p>
@@ -310,6 +313,7 @@
         </div>
       </div>
       <div class="wcard">
+        <img src="https://images.unsplash.com/photo-OHrZ8E-2ntM?auto=format&fit=crop&w=600&q=80" class="wcard-img" alt="Action figures" loading="lazy"/>
         <div class="wcard-icon">🤖</div>
         <div class="wcard-h">Action Figures</div>
         <p class="wcard-p">Vintage and modern. Loose, carded, or complete sets.</p>
@@ -318,6 +322,7 @@
         </div>
       </div>
       <div class="wcard">
+        <img src="https://images.unsplash.com/photo-GD6us4XUa18?auto=format&fit=crop&w=600&q=80" class="wcard-img" alt="Funko Pop figures" loading="lazy"/>
         <div class="wcard-icon">🎯</div>
         <div class="wcard-h">Funko Pop</div>
         <p class="wcard-p">Vaulted, exclusives, chase variants — individual pieces or full collections.</p>
@@ -326,6 +331,7 @@
         </div>
       </div>
       <div class="wcard">
+        <img src="https://images.unsplash.com/photo-4FAtTFxpHKM?auto=format&fit=crop&w=600&q=80" class="wcard-img" alt="Toys and collectibles" loading="lazy"/>
         <div class="wcard-icon">🎮</div>
         <div class="wcard-h">Toys & Collectibles</div>
         <p class="wcard-p">Vintage toys, statues, busts, prop replicas, apparel, memorabilia.</p>
@@ -334,6 +340,7 @@
         </div>
       </div>
       <div class="wcard">
+        <img src="https://images.unsplash.com/photo-OQgpRHFJwbQ?auto=format&fit=crop&w=600&q=80" class="wcard-img" alt="Full comic collections" loading="lazy"/>
         <div class="wcard-icon">📦</div>
         <div class="wcard-h">Entire Collections</div>
         <p class="wcard-p">Basement rooms, storage units, estate collections. The bigger the better — we come to you.</p>
